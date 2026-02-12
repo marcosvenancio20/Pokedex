@@ -213,7 +213,8 @@ body {
 
 .filter-wrapper {
     position: absolute;
-    background: var(--identity-primary);
+    background:
+    ;
     border: 4px solid var(--identity-primary);
     border-top: 0;
     border-radius: 12px;
@@ -256,7 +257,7 @@ body {
     background-color: var(--grayscale-white);
     box-shadow: var(--drop-shadow-inner);
     padding: 16px 20px;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 
@@ -462,7 +463,7 @@ body {
 
 .pokemon-detail-wrap:before {
     content: "";
-    background-color: var(--grayscale-light);
+    background-color: red;
     width: 1px;
     height: 100%;
     position: absolute;
